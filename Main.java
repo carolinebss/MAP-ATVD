@@ -14,5 +14,8 @@ public class Main {
 
         pedido.setEstrategiaFrete(new FreteInternacional());
         System.out.println("Internacional: R$ " + pedido.calcularFrete());
+
+        pedido.setEstrategiaFrete(new FreteInternacional());
+        System.out.println("Internacional: R$ " + pedido.calcularFrete());
     }
 }
